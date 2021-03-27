@@ -19,7 +19,7 @@
     padding: 0px;
     border-radius: 3px;
     overflow:hidden;
-    align-content: center;
+float: left;
 }
 main {
     grid-area: main;
@@ -27,12 +27,10 @@ main {
 }
 header {
     grid-area: header;
-    flex: auto;
     background-color: black;
 }
 aside {
-    grid-area: aside;
-    flex: auto;
+    grid-area: aside;  
     background-color: #F2F2F2;
     
 }
@@ -234,5 +232,3 @@ img {vertical-align: middle;}
 }
 /*styling for image row */
 /* styling for bottom text */
-
-.copyright { text-align: right}

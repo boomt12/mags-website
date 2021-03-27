@@ -91,7 +91,7 @@ function showSlides(n) {
     </aside>
 <footer class="box">
     
-<h2> Copyright Heeju Shim 2021</h2>
+    <h1> Copyright Heeju Shim 2021</h1>
     </footer>
 </html>
 
