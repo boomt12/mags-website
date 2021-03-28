@@ -80,14 +80,29 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
-
+         
 </script>
     </main>
 
 <aside class="box">
-    <a class="imgcascade" href="contact.php">
-    <img src="img/slideshowrestraunt.jpg" alt="first button" height="0" width="100">
-    </a>
+    <div class="button-wrapper">
+    <div class="bframe">
+        <a class="imgcascade" href="contact.php">
+   <img class="bimg" src="img/slideshowrestraunt.jpg" alt="first button" "250px" height="250px">
+        </a>
+                <a class="imgcascade" href="contact.php">
+   <img class="bimg" src="img/new-zealand-73230_1920.jpg"    alt="second button" width="250px" height="250px">
+        </a>
+                <a class="imgcascade" href="contact.php">
+   <img class="bimg" src="img/vacations-2076121_1920.jpg" alt="third button" width="250px" height="250px">
+        </a>
+        
+        </div>
+    
+    </div>
+    <!--<a class="imgcascade" href="contact.php">
+    <img src="img/slideshowrestraunt.jpg" alt="first button" height="0" width="100"> !-->
+
     </aside>
 <footer class="box">
     

@@ -231,4 +231,24 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 /*styling for image row */
+.button-wrapper {
+    display: inline-block;
+    margin: 10px;
+}
+.bframe {
+    height: 100px;
+    width: 100px;
+    border: 3px;
+    vertical-align: middle;
+    align-content: center;
+    display: table-cell;
+}
+bimg {
+    max-height: 30%;
+    max-width: 30%;
+    
+    display: block;
+    align-content: center;
+    margin: 0 auto;
+}
 /* styling for bottom text */
