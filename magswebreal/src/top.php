@@ -8,23 +8,22 @@
 <title>Tourism in New Zealand</title>
 <div class="wrapper">
     <header class="box">
-        <h1>Insert logo here</h1>
+        <h1>NZ Tourism</h1>
     </header>
     <div class="container-nav">
     <div class="navbar">
         <a href="index.php">Home</a>
-        <a href="#news">Places</a>
-        <a href="#news">Things to do</a>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown
+      <div class="dropdown">
+            <button class="dropbtn">Places
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="testpage.php">test</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                <a href="contact.php">contact us</a>
+                <a href="testpage.php">Auckland</a>
+                <a href="#">Wellington</a>
+                <a href="#">Christchurch</a>
             </div> 
         </div>
+        <a href="thingstodo.php">Things to do</a>
+       <a href="contact.php">contact us</a>
     </div>
     </div>
