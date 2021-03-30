@@ -17,7 +17,7 @@
 
 .box {    
     padding: 0px;
-    border-radius: 3px;
+    border-radius: 2px;
     overflow:hidden;
 float: left;
 }
@@ -58,11 +58,11 @@ container-navbar {
     background: black;
 }
 .navbar {
-    position: absolute;
+   
     overflow: hidden;
     font-family: Arial;
     background-color: black;
-    width: 100%;
+    width: 168.8%;
 }
 
 /* Links inside the navbar */
@@ -91,6 +91,7 @@ container-navbar {
     padding: 14px 40px;
     background-color: inherit;
     font-family: inherit;
+    width: 100%
     /* Important for vertical align on mobile phones */
     margin: 0;
     /* Important for vertical align on mobile phones */
@@ -99,7 +100,7 @@ container-navbar {
 /* black dropdown on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: ;
+    background-color: black;
 }
 
 /* Dropdown content (hidden by default) */
@@ -175,7 +176,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color:  black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -232,25 +233,18 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 /*styling for image row */
-.button-wrapper {
-    display: inline-block;
-    margin: 10px;
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+ top: 50%;
+            left: 50%;
+            margin-top: -100px;
+            margin-left: -100px;
 }
-.bframe {
-    height: 100px;
-    width: 100px;
-  grid-gap: 3px;
-    border: 1px;
-    vertical-align: middle;
-    align-content: center;
-    display: table-cell;
-}
-bimg {
-    max-height: 30%;
-    max-width: 30%;
-    
-    display: block;
-    align-content: center;
-    margin: 0 auto;
-}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
 /* styling for bottom text */

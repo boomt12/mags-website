@@ -13,27 +13,27 @@
 <?php include'src/top.php'; ?>
 <html>
  <main class="box">
-<h2> test main</h2>
-<!-- Slideshow container -->
+<h2> Featured</h2>
+<!-- Slideshow container from w3schools -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="img/slideshowrestraunt.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="text">Things to do</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <img src="img/contact-us-2993000_1920.jpg" style="width:100%">
+    <div class="text">Contact Us</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <img src="img/new-zealand-73230_1920.jpg" style="width:100%">
+    <div class="text">Auckland</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -85,19 +85,19 @@ function showSlides(n) {
     </main>
 
 <aside class="box">
-    <div class="button-wrapper">
-    <div class="bframe">
-        <a class="imgcascade" href="contact.php">
-   <img class="bimg" src="img/slideshowrestraunt.jpg" alt="first button" "250px" height="250px">
-        </a>
-                <a class="imgcascade" href="contact.php">
-   <img class="bimg" src="img/new-zealand-73230_1920.jpg"    alt="second button" width="250px" height="250px">
-        </a>
-                <a class="imgcascade" href="contact.php">
-   <img class="bimg" src="img/vacations-2076121_1920.jpg" alt="third button" width="250px" height="250px">
-        </a>
-        
-        </div>
+       <div class="row">
+  <div class="column">
+    <a href="auckland.php">
+    <img src="img/new-zealand-73230_1920.jpg" alt="Auckland" width="70%">  
+      </a>
+ <a href="wellington.php">
+    <img src="img/vacations-2076121_1920.jpg" alt="Vacation" width="70%">  
+      </a>
+ <a href="thingstodo.php">
+    <img src="img/slideshowrestraunt.jpg" alt="Things to do" width="70%">  
+      </a>
+  </div>
+    
     
     </div>
     <!--<a class="imgcascade" href="contact.php">

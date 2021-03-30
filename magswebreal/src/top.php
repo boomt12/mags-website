@@ -18,9 +18,9 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="testpage.php">Auckland</a>
-                <a href="#">Wellington</a>
-                <a href="#">Christchurch</a>
+                <a href="auckland.php">Auckland</a>
+                <a href="wellington.php">Wellington</a>
+                <a href="christchurch.php">Christchurch</a>
             </div> 
         </div>
         <a href="thingstodo.php">Things to do</a>
