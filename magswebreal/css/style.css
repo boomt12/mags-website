@@ -1,21 +1,6 @@
 /* Copyright Heeju Shim 2021. All rights reserved. */
 
 /* General formatting for homepage */
-/* Responsive classes for CSS */
-
-.responsiveimg {
-    width: 60%;
-    float: right;
-    
-    height: auto;
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-/* Copyright Heeju Shim 2021. All rights reserved. */
-
-/* General formatting for homepage */
 
 .wrapper {
     display: grid;
@@ -54,7 +39,6 @@ footer {
     background-color: black;
     
 }
-/* Styling for text */
 h1 {
     font-family: 'Arvo', serif;
     font-size: 15px;
@@ -67,7 +51,7 @@ h2 {
     color: black;   
 }
 p {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roberto Slab', serif;
     color: black;
 }
 container-navbar {
@@ -192,7 +176,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color:  white;
+  color:  black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -249,8 +233,7 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 /*styling for image row */
-
- /* CSS for verticle column */
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
  top: 50%;
             left: 50%;
@@ -263,15 +246,5 @@ img {vertical-align: middle;}
   content: "";
   clear: both;
   display: table;
-}
-/* Centered text for image aside */
-
-.center{
- color:  white;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
+} 
+/* styling for bottom text */

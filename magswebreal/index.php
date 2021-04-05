@@ -13,34 +13,27 @@
 <?php include'src/top.php'; ?>
 <html>
  <main class="box">
-<h2> Featured + Must See</h2>
+<h2> Featured</h2>
 <!-- Slideshow container from w3schools -->
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-     <a href="aboutus.php">
-          <img src="img/passenger-traffic-122999_1920.jpg" style="width:100%">
-    <div class="text">About Us</div>
-     </a>  
+    <img src="img/slideshowrestraunt.jpg" style="width:100%">
+    <div class="text">Things to do</div>
   </div>
+
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-     <a href="contact.php">
-          <img src="img/contact-us-4193637_1920.jpg" style="width:100%">
+    <img src="img/contact-us-2993000_1920.jpg" style="width:100%">
     <div class="text">Contact Us</div>
-     </a>  
   </div>
-   
-
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-     <a href="auckland.php">
-          <img src="img/new-zealand-73230_1920.jpg" style="width:100%">
+    <img src="img/new-zealand-73230_1920.jpg" style="width:100%">
     <div class="text">Auckland</div>
-     </a>  
   </div>
 
   <!-- Next and previous buttons -->
@@ -57,7 +50,7 @@
 </div>
                 
 
-     <!-- javascript controls for slideshow !-->
+     <!-- script for slideshow !-->
      <script>
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -91,25 +84,30 @@ function showSlides(n) {
 </script>
     </main>
 
-<!--aside function for the 3 vertical row of images !-->
 <aside class="box">
        <div class="row">
   <div class="column">
     <a href="auckland.php">
-    <img src="img/new-zealand-73230_1920.jpg" alt="Auckland" class="responsiveimg">
+    <img src="img/new-zealand-73230_1920.jpg" alt="Auckland" width="70%">  
       </a>
  <a href="wellington.php">
-    <img src="img/vacations-2076121_1920.jpg" alt="Vacation" class="responsiveimg">  
+    <img src="img/vacations-2076121_1920.jpg" alt="Vacation" width="70%">  
       </a>
- <a href="aboutus.php">
-    <img src="img/tree-838667_1280.jpeg" alt="about us" class="responsiveimg">  
+ <a href="thingstodo.php">
+    <img src="img/slideshowrestraunt.jpg" alt="Things to do" width="70%">  
       </a>
   </div>
-</div>
     
+    
+    </div>
+    <!--<a class="imgcascade" href="contact.php">
+    <img src="img/slideshowrestraunt.jpg" alt="first button" height="0" width="100"> !-->
+
     </aside>
 <footer class="box">
     
     <h1> Copyright Heeju Shim 2021</h1>
     </footer>
 </html>
+
+
