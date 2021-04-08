@@ -74,11 +74,12 @@ container-navbar {
     background: black;
 }
 .navbar {
-   
     overflow: hidden;
     font-family: Arial;
     background-color: black;
-    width: 168.8%;
+    width: 175%;
+    align-content: center;
+    
 }
 
 /* Links inside the navbar */
